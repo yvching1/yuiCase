@@ -1,0 +1,5 @@
+#!/usr/local/bin/bash
+echo
+echo "========== startup forever =============="
+cd /usr/local/etc
+/usr/local/bin/forever start server.js
